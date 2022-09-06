@@ -1,6 +1,6 @@
-// reset css 입니다.
-// 새로운 프로젝트의 글로벌 css 파일로 옮기면 됩니다.
-
+import { createGlobalStyle } from 'styled-components';
+// reset css
+export const GlobalStyle = createGlobalStyle`
 html,
 body,
 div,
@@ -126,3 +126,4 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+`;
