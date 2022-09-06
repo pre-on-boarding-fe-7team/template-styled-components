@@ -1,8 +1,9 @@
 const theme = {
   // add common style
-  size: {
-    pc: '1100px',
-    mobile: '768px',
+  maxWidth: '1100px',
+  device: {
+    pc: '(min-width: 1100px)',
+    mobile: '(min-width: 768px)',
   },
 };
 

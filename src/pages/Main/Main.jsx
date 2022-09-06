@@ -1,7 +1,8 @@
 import React from 'react';
+import { Container } from './Main.style';
 
 function Main() {
-  return <div>This is MainPage</div>;
+  return <Container>This is MainPage</Container>;
 }
 
 export default Main;
